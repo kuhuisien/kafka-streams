@@ -21,13 +21,13 @@ zookeeper-server-start /opt/homebrew/etc/kafka/zookeeper.properties
 kafka-server-start /opt/homebrew/etc/kafka/server.properties
 ```
 
-##Favourite-Colour
+## Favourite-Colour
 
-###This module 
+### This module 
 - take a comma delimited topic of userid,color
 - get running count of favourite colours overall and output to a topic
 
-###Running locally
+### Running locally
 1. create input topic
 ```
 kafka-topics --bootstrap-server 127.0.0.1:9092 --create --topic favourite-colour-input --partitions 1 --replication-factor 1
