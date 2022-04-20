@@ -53,6 +53,6 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 \
 ```
 5. launch the streams application
 6. produce data to it
-7. ```
+```
 kafka-console-producer --bootstrap-server localhost:9092 --topic favourite-colour-input
 ```
