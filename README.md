@@ -22,9 +22,11 @@ kafka-server-start /opt/homebrew/etc/kafka/server.properties
 ```
 
 ##Favourite-Colour
+
 ###This module 
 - take a comma delimited topic of userid,color
 - get running count of favourite colours overall and output to a topic
+
 ###Running locally
 1. create input topic
 ```
